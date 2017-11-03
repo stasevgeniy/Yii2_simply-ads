@@ -20,9 +20,16 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="card">
             <div class="card-block">
                 <h4 class="card-title"><?=$ad->title;?></h4>
-                <a href="tel:<?=$ad->phone;?>">
-                    <h6 class="card-subtitle mb-2 text-muted"><span class="badge"><?=$ad->phone;?></span> </h6>
-                </a>
+                <nav aria-label="breadcrumb" role="navigation">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="tel:<?=$ad->phone;?>"><?=$ad->phone;?></a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            <?=$ad->date;?>
+                        </li>
+                    </ol>
+                </nav>
                 <p class="card-text"><?=$ad->text;?></p>
                 <hr>
                 <?php $form = ActiveForm::begin(['action' =>['search/']]); ?>
