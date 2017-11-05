@@ -10,6 +10,7 @@ A simple ads with Yii2 Framework and Twitter Bootstrap
 
 ## As frontend use the last version of Twitter Bootstrap
 
+![screen](screen.jpg)
 
 Yii 2 Basic Project Template
 ============================
