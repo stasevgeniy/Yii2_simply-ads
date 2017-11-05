@@ -1,3 +1,16 @@
+A simple ads with Yii2 Framework and Twitter Bootstrap
+============================
+
+## Site can : 
+- Display last 9 ads on main page (with pagination) of site with title, text, phone number with link, date of creation and search link on autor
+- Search ads on title and phone number
+- Add new ads without registration filling in phone number, ad title, ad text
+- Contact with site administration on email
+- Display information about site
+
+## As frontend use the last version of Twitter Bootstrap
+
+
 Yii 2 Basic Project Template
 ============================
 
